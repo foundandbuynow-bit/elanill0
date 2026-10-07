@@ -23,7 +23,7 @@ const social = `<!-- wp:social-links ${json({ className: 'is-style-logos-only to
 const logo = (size, cls) => `<!-- wp:site-logo ${json({ width: size, shouldSyncIcon: false, className: cls })} /-->\n`;
 
 w('parts/header.html',
-  group('site-header', group('wrap',
+  group('site-header', group('announce', paragraph('Envío gratis en compras de más de 50 € · Acero inoxidable 316L')) + group('wrap',
     group('topbar',
       group('top-left', search + paragraph(`<a href="${WA}" target="_blank" rel="noopener">WhatsApp +34 605 505 120</a>`, 'top-wa')) +
       group('brand', logo(84, 'brand-logo')) +
@@ -34,7 +34,7 @@ const col = (title, items) => group('f-col', heading(2, title, 'foot-h') + list(
 w('parts/footer.html',
   group('', group('wrap', group('foot-box',
     group('foot-cols',
-      group('f-brand', logo(92, 'foot-logo') + paragraph('Elanill0 es una tienda online de joyas de acero inoxidable: anillos, collares, pulseras y pendientes para hombre y mujer, pensados para el día a día. Compra por WhatsApp.')) +
+      group('f-brand', logo(92, 'foot-logo') + paragraph('Elanill0 es una tienda online de joyas de acero inoxidable 316L: anillos, collares, pulseras y pendientes para hombre y mujer, pensados para el día a día. Envío gratis en compras de más de 50 €.')) +
       group('f-col f-contact', heading(2, 'Contacto', 'foot-h') + list([
         '<a href="mailto:juam9219@gmail.com">juam9219@gmail.com</a>',
         `<a href="${WA}" target="_blank" rel="noopener">+34 605 505 120</a>`,
@@ -71,7 +71,7 @@ w('templates/search.html', part('header') + main(
     `<!-- wp:query ${json({ query: { perPage: 100, pages: 0, offset: 0, postType: 'producto', order: 'asc', orderBy: 'menu_order', author: '', search: '', exclude: [], sticky: '', inherit: true } })} -->\n<div class="wp-block-query"><!-- wp:post-template ${json({ className: 'products' })} -->\n${require('./wp-blocks.js').productCard()}<!-- /wp:post-template -->\n<!-- wp:query-no-results -->\n${paragraph('No hay productos que coincidan con tu búsqueda. <a href="/tienda/">Ver todos los productos</a> o <a href="' + WA + '" target="_blank" rel="noopener">pregúntanos por WhatsApp</a>.', 'empty')}<!-- /wp:query-no-results --></div>\n<!-- /wp:query -->\n`)) + part('footer'));
 
 /* Ficha de producto */
-const perks = list(['Pides por WhatsApp y te respondemos con disponibilidad y forma de pago.', 'Joya de acero inoxidable, pensada para el uso diario.', '¿Dudas con la talla o el largo? Te asesoramos antes de comprar.'], false, 'perks');
+const perks = list(['Pides por WhatsApp y te respondemos con disponibilidad y forma de pago.', 'Acero inoxidable 316L (acero quirúrgico), pensado para el uso diario.', 'Envío gratis en compras de más de 50 €.', '¿Dudas con la talla o el largo? Te asesoramos antes de comprar.'], false, 'perks');
 const B = k => ({ source: 'elanill0/producto', args: { key: k } });
 w('templates/single-producto.html', part('header') + main(
   group('wrap page-head crumbs-only', shortcode('[elanill0_migas]')) +
@@ -81,7 +81,7 @@ w('templates/single-producto.html', part('header') + main(
       `<!-- wp:post-terms ${json({ term: 'categoria-producto', className: 'cat' })} /-->\n` +
       `<!-- wp:post-title ${json({ level: 1 })} /-->\n` +
       group('price', paragraph('', 'price-old', { content: B('precio_antes') }) + paragraph('Consultar precio', 'price-now', { content: B('precio') }) + paragraph('', 'off', { content: B('descuento') })) +
-      paragraph('Pago y envío se acuerdan por WhatsApp.', 'tax') +
+      paragraph('Pago por WhatsApp. Envío gratis en compras de más de 50 €.', 'tax') +
       `<!-- wp:post-excerpt ${json({ excerptLength: 60, className: 'lead' })} /-->\n` +
       shortcode('[elanill0_comprar]') + perks)) +
   group('wrap desc', `<!-- wp:post-content {"layout":{"type":"default"}} /-->\n`) +

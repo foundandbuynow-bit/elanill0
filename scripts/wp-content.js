@@ -70,6 +70,8 @@ function buildContent(ctx) {
     ['¿Las joyas de acero inoxidable se oxidan?', 'El acero inoxidable resiste la humedad y el uso diario sin oxidarse con facilidad. Para que mantenga su brillo, límpialo con agua tibia y jabón suave y guárdalo por separado. En las piezas de acabado dorado, el color puede desgastarse con el roce y el tiempo.'],
     ['¿Cómo compro en Elanill0?', 'Es muy fácil: elige tu producto, pulsa «Comprar por WhatsApp» y se abrirá una conversación con el producto, la talla y el precio ya escritos. Te confirmamos disponibilidad, forma de pago y envío.'],
     ['¿Son joyas para hombre o para mujer?', 'Casi todas nuestras piezas son unisex. El anillo de sello y la cadena cubana son muy populares entre los hombres, y los aros, los collares de cuerda y los brazaletes los eligen sobre todo ellas, pero cada uno elige su estilo.'],
+    ['¿Hacéis envío gratis?', 'Sí: el envío es gratis en compras de más de 50 €. Por debajo de esa cantidad acordamos el coste contigo por WhatsApp.'],
+    ['¿De qué acero son las joyas de Elanill0?', 'Todas nuestras joyas son de acero inoxidable 316L, el tipo que se conoce como acero quirúrgico.'],
     ['¿Qué diferencia hay entre acero inoxidable y acero quirúrgico?', 'En joyería, «acero quirúrgico» suele ser acero inoxidable de grado 316L: es un nombre comercial más que una norma oficial. Lo explicamos en nuestra <a href="/guias/acero-inoxidable-o-acero-quirurgico/">guía de acero inoxidable y acero quirúrgico</a>.']
   ];
   const catCard = c => group('cat-card',
@@ -79,14 +81,14 @@ function buildContent(ctx) {
   add({
     slug: 'inicio', title: 'Inicio', order: 0,
     excerpt: 'Joyas de acero inoxidable online para hombre y mujer.',
-    seoTitle: 'Joyas de acero inoxidable online | Elanill0',
-    seoDesc: `Joyas de acero inoxidable online: anillos, collares, pulseras y pendientes para hombre y mujer con hasta un ${MAX_OFF} % de descuento. Compra por WhatsApp.`,
+    seoTitle: 'Joyas de acero inoxidable 316L online | Elanill0',
+    seoDesc: `Joyas de acero inoxidable 316L online: anillos, collares, pulseras y pendientes para hombre y mujer, hasta -${MAX_OFF} % y envío gratis desde 50 €.`,
     content:
       group('wrap hero',
         group('hero-photo', image(img.hero, '')) +
         group('hero-panel',
           heading(1, 'JOYAS DE ACERO <br>INOXIDABLE PARA <br>TODOS LOS DÍAS', 'hero-title') +
-          paragraph(`Anillos, collares, pulseras y pendientes de acero inoxidable con hasta un ${MAX_OFF} % de descuento. Elige tu pieza y pídela por WhatsApp.`) +
+          paragraph(`Anillos, collares, pulseras y pendientes de acero inoxidable 316L con hasta un ${MAX_OFF} % de descuento y envío gratis en compras de más de 50 €.`) +
           buttons([button('VER LA TIENDA', L('/tienda/'), 'btn-light')]))) +
       group('wrap block',
         group('label-row', heading(2, 'Joyas de acero inoxidable más vendidas', 'label') + paragraph(`<a href="${L('/tienda/')}">VER TODO</a>`, 'label-link')) +
@@ -108,9 +110,9 @@ function buildContent(ctx) {
         group('browse', paragraph(`<a href="${L('/colecciones/')}">VER TODAS LAS COLECCIONES</a>`))) +
       group('wrap block', group('seo-text prose',
         heading(2, 'Joyas de acero inoxidable online: anillos, collares, pulseras y pendientes') +
-        paragraph(`En Elanill0 encontrarás <strong>joyas de acero inoxidable para hombre y mujer</strong> a precios muy ajustados: <a href="${L('/colecciones/anillos/')}">anillos</a> de sello, lisos y vintage, <a href="${L('/colecciones/collares/')}">collares y cadenas</a> de eslabones cubanos y cuerda trenzada, <a href="${L('/colecciones/pulseras/')}">pulseras y brazaletes</a> y <a href="${L('/colecciones/pendientes/')}">pendientes de aro</a>. Todas las piezas tienen descuentos de hasta el ${MAX_OFF} % y las pides directamente por WhatsApp.`) +
+        paragraph(`En Elanill0 encontrarás <strong>joyas de acero inoxidable para hombre y mujer</strong> a precios muy ajustados: <a href="${L('/colecciones/anillos/')}">anillos</a> de sello, lisos y vintage, <a href="${L('/colecciones/collares/')}">collares y cadenas</a> de eslabones cubanos y cuerda trenzada, <a href="${L('/colecciones/pulseras/')}">pulseras y brazaletes</a> y <a href="${L('/colecciones/pendientes/')}">pendientes de aro</a>. Todas las piezas son de acero inoxidable 316L, tienen descuentos de hasta el ${MAX_OFF} % y las pides directamente por WhatsApp, con <strong>envío gratis en compras de más de 50 €</strong>.`) +
         heading(3, '¿Por qué elegir joyas de acero inoxidable?') +
-        paragraph(`El acero inoxidable resiste el uso diario, el agua y la humedad sin oxidarse con facilidad, y conserva su brillo con un cuidado sencillo. Es una alternativa mucho más económica que el oro o la plata para llevar joyas todos los días. Si tienes dudas, lee la <a href="${L('/guias/acero-inoxidable-o-acero-quirurgico/')}">diferencia entre acero inoxidable y acero quirúrgico</a>.`) +
+        paragraph(`Nuestras joyas son de acero inoxidable 316L, el tipo conocido como acero quirúrgico: resiste el uso diario, el agua y la humedad sin oxidarse con facilidad y conserva su brillo con un cuidado sencillo. Es una alternativa mucho más económica que el oro o la plata para llevar joyas todos los días. Si tienes dudas, lee la <a href="${L('/guias/acero-inoxidable-o-acero-quirurgico/')}">diferencia entre acero inoxidable y acero quirúrgico</a>.`) +
         heading(3, 'Tienda de joyería online con base en Madrid') +
         paragraph(`Atendemos desde Madrid y nos ocupamos de que tu pedido llegue bien. ¿No sabes qué elegir? Consulta nuestras guías para <a href="${L('/guias/talla-de-anillo/')}">medir tu talla de anillo</a>, <a href="${L('/guias/largo-de-cadena/')}">elegir el largo de una cadena</a> o <a href="${L('/guias/regalos-de-joyas/')}">encontrar el regalo perfecto</a>, o escríbenos por WhatsApp.`))) +
       group('wrap block', label('Preguntas frecuentes sobre joyas de acero inoxidable') + faq(homeFaq)) +
@@ -127,8 +129,8 @@ function buildContent(ctx) {
   add({
     slug: 'tienda', title: 'Tienda de joyas de acero inoxidable', order: 1,
     excerpt: 'Anillos, collares, pulseras y pendientes de acero inoxidable con descuento. Pulsa «Comprar por WhatsApp» en el producto que te guste y te atendemos al momento.',
-    seoTitle: 'Comprar joyas de acero inoxidable online | Elanill0',
-    seoDesc: `Compra joyas de acero inoxidable online: anillos, collares, pulseras y pendientes desde 11 € con hasta un ${MAX_OFF} % de descuento. Pide por WhatsApp.`,
+    seoTitle: 'Comprar joyas de acero inoxidable 316L | Elanill0',
+    seoDesc: `Compra joyas de acero inoxidable 316L: anillos, collares, pulseras y pendientes desde 11 €, hasta -${MAX_OFF} % y envío gratis desde 50 €. Pide por WhatsApp.`,
     meta: { categoria_producto: 'todos' },
     content:
       group('wrap shop-section',
@@ -147,7 +149,7 @@ function buildContent(ctx) {
     slug: 'colecciones', title: 'Colecciones de joyas de acero inoxidable', order: 2,
     excerpt: 'Cuatro colecciones de acero inoxidable para combinar a tu gusto.',
     seoTitle: 'Colecciones de joyas de acero inoxidable | Elanill0',
-    seoDesc: 'Colecciones de Elanill0: anillos, collares, pulseras y pendientes de acero inoxidable para hombre y mujer. Elige la tuya y compra por WhatsApp.',
+    seoDesc: 'Colecciones de Elanill0: anillos, collares, pulseras y pendientes de acero inoxidable 316L para hombre y mujer. Envío gratis desde 50 €.',
     content:
       group('wrap', group('cats', categories.map(catCard).join(''))) +
       ctaWa('¿Buscas un regalo? Te ayudamos a elegir.', 'PEDIR AYUDA POR WHATSAPP', 'Hola, busco un regalo de joyería. ¿Me ayudáis a elegir?')
@@ -208,13 +210,13 @@ function buildContent(ctx) {
         group('prose',
           heading(2, 'Quiénes somos') +
           paragraph(`Elanill0 es una tienda online de joyería de acero inoxidable con base en Madrid, España. Seleccionamos <a href="${L('/colecciones/anillos/')}">anillos</a>, <a href="${L('/colecciones/collares/')}">collares</a>, <a href="${L('/colecciones/pulseras/')}">pulseras</a> y <a href="${L('/colecciones/pendientes/')}">pendientes</a> con un diseño actual, para que lleves joyas con estilo sin pagar de más.`) +
-          paragraph('Trabajamos con acero inoxidable porque combina lo mejor de dos mundos: el aspecto de una joya y la resistencia que necesitas para llevarla a diario, sin miedo al agua, al sol o al paso del tiempo.') +
+          paragraph('Trabajamos con acero inoxidable 316L, el tipo conocido como acero quirúrgico, porque combina lo mejor de dos mundos: el aspecto de una joya y la resistencia que necesitas para llevarla a diario, sin miedo al agua, al sol o al paso del tiempo.') +
           heading(2, 'Cómo trabajamos') +
           paragraph('Aquí no hay carritos complicados: eliges tu pieza, pulsas <strong>«Comprar por WhatsApp»</strong> y hablas directamente con nosotros. Te confirmamos disponibilidad, talla y forma de pago, y acordamos el envío contigo.') +
           buttons([button('VER LA TIENDA', L('/tienda/'), 'btn-dark')]))) +
       group('wrap', group('values',
-        group('value', heading(2, 'Acero inoxidable') + paragraph(`Piezas pensadas para el uso diario, fáciles de limpiar y de mantener. Consulta nuestra <a href="${L('/guias/cuidado-del-acero/')}">guía de cuidado</a>.`)) +
-        group('value', heading(2, 'Precio honesto') + paragraph(`Joyas con estilo a precios accesibles, con descuentos de hasta el ${MAX_OFF} % en muchas piezas.`)) +
+        group('value', heading(2, 'Acero inoxidable 316L') + paragraph(`Piezas pensadas para el uso diario, fáciles de limpiar y de mantener. Consulta nuestra <a href="${L('/guias/cuidado-del-acero/')}">guía de cuidado</a>.`)) +
+        group('value', heading(2, 'Precio honesto') + paragraph(`Joyas con estilo a precios accesibles, con descuentos de hasta el ${MAX_OFF} % y envío gratis en compras de más de 50 €.`)) +
         group('value', heading(2, 'Trato directo') + paragraph('Compras hablando con una persona, no con un formulario. Te asesoramos con la talla, el largo y el regalo ideal.')))) +
       ctaWa('¿Hablamos? Estamos a un mensaje de distancia.')
   });
@@ -223,7 +225,8 @@ function buildContent(ctx) {
   const contactFaq = [
     ['¿Cómo compro?', 'Elige tu producto en la tienda y pulsa «Comprar por WhatsApp». Se abrirá una conversación con nosotros con el producto ya indicado: te confirmamos disponibilidad, forma de pago y envío.'],
     ['¿Recibiré el mismo producto que veo en la foto?', 'Sí. Las fotos corresponden al producto que vendemos. Si tienes cualquier duda sobre medidas o acabado, pregúntanos antes de comprar.'],
-    ['¿Hacéis envíos?', 'Sí, acordamos el envío contigo por WhatsApp. Consulta los detalles en <a href="/envios-y-devoluciones/">Envíos y devoluciones</a>.'],
+    ['¿Hacéis envíos?', 'Sí, enviamos a toda España y el envío es gratis en compras de más de 50 €. Consulta los detalles en <a href="/envios-y-devoluciones/">Envíos y devoluciones</a>.'],
+    ['¿De qué material son las joyas?', 'Todas nuestras joyas son de acero inoxidable 316L, el tipo conocido como acero quirúrgico.'],
     ['¿Puedo cambiar o devolver mi pedido?', 'Sí, dentro de los plazos legales. Lo explicamos en <a href="/envios-y-devoluciones/">Envíos y devoluciones</a>.']
   ];
   const ccard = (cls, title, text, linkHtml) => group('ccard ' + cls, heading(2, title) + paragraph(text) + paragraph(linkHtml, 'cc-link'));
@@ -249,11 +252,11 @@ function buildContent(ctx) {
   const legal = (slug, title, lead, seoTitle, seoDesc, html, order) => add({ slug, title, order, excerpt: lead, seoTitle, seoDesc, content: group('wrap block legal-body', group('prose', htmlToBlocks(html))) });
   const waLink = (txt) => `<a href="${wa('Hola, quiero hacer un pedido.')}" target="_blank" rel="noopener">${txt}</a>`;
   legal('envios-y-devoluciones', 'Envíos y devoluciones', 'Última actualización: 7 de octubre de 2026.', 'Envíos y devoluciones | Elanill0',
-    'Envíos, plazos, cambios y devoluciones en Elanill0: pedido por WhatsApp, 14 días para desistir y atención directa.', `
+    'Envíos, plazos, cambios y devoluciones en Elanill0: envío gratis en compras de más de 50 €, pedido por WhatsApp y 14 días para desistir.', `
 <h2>Cómo se hace un pedido</h2>
 <p>Los pedidos se realizan por WhatsApp (${waLink('+34 605 505 120')}) o por email (<a href="mailto:${EMAIL}">${EMAIL}</a>). Te confirmamos la disponibilidad, el precio final, la forma de pago y los gastos de envío antes de cerrar la compra.</p>
 <h2>Envíos</h2>
-<p>Enviamos a toda España. El plazo y el coste del envío se acuerdan contigo al confirmar el pedido, en función de tu dirección y del método elegido.</p>
+<p>Enviamos a toda España. <strong>El envío es gratis en compras de más de 50 €.</strong> En pedidos de menor importe, el coste y el plazo del envío se acuerdan contigo al confirmar el pedido, en función de tu dirección y del método elegido.</p>
 <h2>Cambios y devoluciones</h2>
 <p>Dispones de <strong>14 días naturales</strong> desde la recepción del pedido para ejercer tu derecho de desistimiento, sin necesidad de justificación, tal y como establece la normativa de consumidores. El producto debe estar sin usar y en su estado original.</p>
 <p>Para iniciar un cambio o una devolución escríbenos por WhatsApp o email indicando tu nombre y el producto. Te explicaremos cómo devolverlo.</p>
@@ -302,13 +305,13 @@ function buildContent(ctx) {
     const body = heading(2, `Descripción de ${p.titleName.charAt(0).toLowerCase() + p.titleName.slice(1)}`) +
       paragraph(p.summary) + p.long.map(t => paragraph(t)).join('') +
       heading(2, 'Características') +
-      list(['Material: acero inoxidable', `Categoría: <a href="${L(`/colecciones/${p.cat}/`)}">${cat.title}</a>`, ...p.details,
-        'Compra por WhatsApp, <a href="/envios-y-devoluciones/">envíos y devoluciones</a>']);
+      list(['Material: acero inoxidable 316L (acero quirúrgico)', `Categoría: <a href="${L(`/colecciones/${p.cat}/`)}">${cat.title}</a>`, ...p.details,
+        'Envío gratis en compras de más de 50 €, <a href="/envios-y-devoluciones/">envíos y devoluciones</a>']);
     const price = p.price, old = p.oldPrice;
     const fmt = n => n.toFixed(2).replace('.', ',') + ' €';
     const seoDesc = p.price != null
-      ? `${p.titleName} por ${String(p.price).replace('.', ',')} € (antes ${String(p.oldPrice).replace('.', ',')} €). ${p.hook} Compra por WhatsApp en Elanill0.`
-      : `${p.titleName}. ${p.hook} Consulta precio y disponibilidad por WhatsApp en Elanill0.`;
+      ? `${p.titleName} por ${String(p.price).replace('.', ',')} € (antes ${String(p.oldPrice).replace('.', ',')} €). ${p.hook} Acero 316L. Compra por WhatsApp.`
+      : `${p.titleName}. ${p.hook} Acero 316L. Consulta el precio por WhatsApp.`;
     return {
       slug: p.slug, title: p.name, order: i, excerpt: p.summary, content: body, cat: p.cat,
       seoTitle: (p.titleName.length + 11 <= 60) ? `${p.titleName} | Elanill0` : p.titleName, seoDesc,

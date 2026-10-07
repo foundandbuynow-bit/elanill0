@@ -66,10 +66,10 @@ Fecha de la investigación: 7 de octubre de 2026. Mercado: España (es-ES).
 
 Estas afirmaciones son las que más usa la competencia, pero **no las he puesto porque no las puedo verificar**. Si son ciertas para tus piezas, dímelo y las añado en títulos y descripciones:
 
-1. ¿El acero es **316L / acero quirúrgico**? (la competencia lo usa mucho en título y meta)
-2. ¿Son **hipoalergénicas / sin níquel**? (alto impacto, pero solo si el proveedor lo certifica)
+1. ~~¿El acero es 316L / acero quirúrgico?~~ **Confirmado (7 oct 2026): acero inoxidable 316L.** Ya está en títulos, descripciones, categorías, fichas, guías y datos estructurados.
+2. ¿Son **hipoalergénicas / sin níquel**? (alto impacto, pero solo si el proveedor lo certifica; el 316L por sí solo no basta para afirmarlo)
 3. ¿Son **resistentes al agua** de forma garantizada?
-4. **Envío gratis a partir de X €** y plazo de entrega (aumenta mucho los clics).
+4. ~~Envío gratis~~ **Confirmado: envío gratis en compras de más de 50 €.** Ya aparece en la barra superior, descripciones, fichas, preguntas frecuentes y en «Envíos y devoluciones». Falta confirmar el **plazo de entrega** y el **coste por debajo de 50 €**.
 5. ¿El nombre de marca es **Elanill0** o **El Anillo**? Tu logo dice «el anillo.es» y el dominio es elanill0.com; la gente buscará «el anillo» y «elanillo». Conviene unificar.
 6. Los **pendientes de aro liso** no tienen precio en tu web original; sin precio no pueden aparecer en Google Shopping.
 7. La foto de los aros lisos muestra 4 colores y 6 tamaños; la ficha original dice «plateado, 20/45/70 mm». Revisa cuál es cierto.

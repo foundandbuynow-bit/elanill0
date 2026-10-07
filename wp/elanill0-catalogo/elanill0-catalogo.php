@@ -365,7 +365,7 @@ function e0_graph($i) {
     $g[] = array(
         '@type' => array('Organization', 'OnlineStore'), '@id' => $org_id, 'name' => E0_BRAND, 'alternateName' => array('El Anillo', 'elanillo.es'),
         'url' => $site, 'logo' => array('@type' => 'ImageObject', 'url' => $logo ?: e0_og_url('og-elanill0.jpg')), 'image' => e0_og_url('og-elanill0.jpg'),
-        'description' => 'Tienda online de joyas de acero inoxidable en España: anillos, collares, pulseras y pendientes para hombre y mujer.',
+        'description' => 'Tienda online de joyas de acero inoxidable 316L en España: anillos, collares, pulseras y pendientes para hombre y mujer. Envío gratis en compras de más de 50 €.',
         'email' => E0_EMAIL, 'telephone' => '+' . E0_WA,
         'address' => array('@type' => 'PostalAddress', 'addressLocality' => 'Madrid', 'addressCountry' => 'ES'),
         'areaServed' => array('@type' => 'Country', 'name' => 'España'), 'sameAs' => array(E0_FB), 'priceRange' => '€',
@@ -409,7 +409,7 @@ function e0_graph($i) {
         $tid = get_post_thumbnail_id($post);
         foreach (array_merge(array($tid), $d['gallery']) as $aid) { if ($aid) { $u = wp_get_attachment_image_url($aid, 'full'); if ($u) $imgs[] = $u; } }
         $prod = array('@type' => 'Product', '@id' => $url . '#product', 'name' => e0_title($post), 'description' => $i['desc'], 'image' => $imgs, 'sku' => (string) $post->ID,
-            'brand' => array('@type' => 'Brand', 'name' => E0_BRAND), 'material' => 'Acero inoxidable', 'url' => $url);
+            'brand' => array('@type' => 'Brand', 'name' => E0_BRAND), 'material' => 'Acero inoxidable 316L', 'url' => $url);
         $terms = get_the_terms($post->ID, 'categoria-producto');
         if ($terms && !is_wp_error($terms)) $prod['category'] = 'Joyería > ' . $terms[0]->name;
         if ($d['price'] !== null) {

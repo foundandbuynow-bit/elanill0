@@ -29,7 +29,10 @@ h1,h2,h3,p,ul,ol{margin-top:0;margin-bottom:0}
 .wp-block-post-title,.wp-block-heading{text-wrap:balance;hyphens:none}
 
 /* ---------- Cabecera ---------- */
-.site-header{padding:22px 0 0}
+.site-header{padding:0}
+.site-header>.wrap{padding-top:22px}
+body .announce{background:var(--black);color:var(--white);text-align:center;padding:9px 16px;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;font-weight:500}
+body .announce p{margin:0;color:var(--white)}
 .topbar{display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
 .top-left{display:flex;align-items:center;gap:34px}
 body .search{margin:0}

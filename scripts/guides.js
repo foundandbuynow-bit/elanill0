@@ -35,7 +35,7 @@ const guides = [
 <h2>Cómo recuperar el brillo de una joya de acero inoxidable</h2>
 <p>Si notas que una pieza ha perdido brillo, límpiala con agua tibia y jabón suave, sécala bien y púlela con un paño de microfibra. La mayoría de las veces basta con eso. Si aun así no mejora, escríbenos por <a href="/contacto/">WhatsApp</a> y lo revisamos.</p>`,
     faq: [
-      ['¿El acero inoxidable se oxida?', 'El acero inoxidable resiste muy bien la humedad y no se oxida con facilidad en el uso normal. Aun así, conviene secarlo bien y evitar productos químicos agresivos.'],
+      ['¿El acero inoxidable se oxida?', 'Nuestras joyas son de acero inoxidable 316L, que resiste muy bien la humedad y no se oxida con facilidad en el uso normal. Aun así, conviene secarlo bien y evitar productos químicos agresivos.'],
       ['¿Puedo ducharme o ir a la playa con mis joyas?', 'El acero soporta bien el agua, pero el cloro, la sal y los jabones pueden apagar el brillo con el tiempo. Lo mejor es quitártelas y aclararlas si han estado en contacto con ellos.'],
       ['¿Con qué limpio una joya de acero inoxidable?', 'Con agua tibia, jabón neutro y un paño suave o un cepillo de dientes blando. Después, aclara y seca bien.'],
       ['¿Qué hago si mi joya pierde brillo?', 'Límpiala con agua tibia y jabón suave y pule con un paño de microfibra. Si no mejora, escríbenos y lo revisamos.']
@@ -129,6 +129,8 @@ const guides = [
 <p>El acero inoxidable es una aleación de hierro con cromo (y otros metales). El cromo forma una capa invisible en la superficie que protege al metal de la oxidación, y por eso resiste bien la humedad y el uso diario. Es el material de los cubiertos, los relojes y, cada vez más, la joyería moderna.</p>
 <h2>Qué es el acero quirúrgico</h2>
 <p>«Acero quirúrgico» es un nombre comercial, no una norma oficial. En joyería se usa normalmente para referirse a acero inoxidable de grado 316L, un tipo muy utilizado también en instrumental médico. Por eso, cuando una tienda habla de acero quirúrgico, suele hablar de un acero inoxidable de gran calidad.</p>
+<h2>Las joyas de Elanill0 son de acero inoxidable 316L</h2>
+<p>Todas nuestras piezas están hechas de acero inoxidable 316L, es decir, del tipo que se conoce como acero quirúrgico. Es un acero de gran resistencia a la corrosión, por eso es una elección habitual en joyería de uso diario.</p>
 <h2>¿Las joyas de acero inoxidable se oxidan?</h2>
 <p>Con el uso normal, no se oxidan con facilidad, y soportan el agua y el sudor mucho mejor que otras joyas de bisutería. Aun así, conviene secarlas bien y evitar el contacto prolongado con cloro y productos agresivos. Lo explicamos en la <a href="/guias/cuidado-del-acero/">guía para limpiar y cuidar el acero</a>.</p>
 <h2>Joyas de acero inoxidable y piel sensible</h2>
@@ -140,6 +142,7 @@ const guides = [
 </ul>
 <p>Descubre toda nuestra colección de <a href="/tienda/">joyas de acero inoxidable</a>.</p>`,
     faq: [
+      ['¿Qué acero usa Elanill0?', 'Todas nuestras joyas son de acero inoxidable 316L, el tipo conocido como acero quirúrgico.'],
       ['¿El acero quirúrgico y el inoxidable son lo mismo?', 'En joyería, el acero quirúrgico suele ser acero inoxidable de grado 316L. Es un nombre comercial más que una norma oficial.'],
       ['¿Las joyas de acero inoxidable se oxidan?', 'No se oxidan con facilidad en el uso diario, aunque conviene secarlas bien y evitar productos químicos fuertes.'],
       ['¿Las joyas de acero inoxidable son aptas para pieles sensibles?', 'Depende de cada persona. El acero inoxidable libera muy poco níquel, pero quien tenga alergia fuerte debe consultar a su médico antes de usarlas.']
@@ -174,10 +177,11 @@ const guides = [
   <li>Escríbenos por WhatsApp contándonos a quién va dirigido y te recomendamos una pieza.</li>
 </ul>
 <h2>Regalos de joyas baratos que no lo parecen</h2>
-<p>Todas nuestras piezas cuestan menos de 20 € y tienen descuentos de hasta el 45 %. Mira la <a href="/tienda/">tienda completa</a> y elige la que mejor encaje.</p>`,
+<p>Todas nuestras piezas son de acero inoxidable 316L, cuestan menos de 20 € y tienen descuentos de hasta el 45 %. Además, <strong>el envío es gratis en compras de más de 50 €</strong>: combina varias piezas y te ahorras el envío. Mira la <a href="/tienda/">tienda completa</a> y elige la que mejor encaje.</p>`,
     faq: [
       ['¿Qué joya regalar a un hombre?', 'Un anillo de sello, una cadena de eslabones cubanos o una pulsera de cadena cubana son regalos muy acertados y fáciles de combinar.'],
       ['¿Qué joya regalar si no sé la talla?', 'Un brazalete abierto, una cadena o unos pendientes no necesitan talla. Son la opción más segura para sorprender.'],
+      ['¿Hay envío gratis?', 'Sí, el envío es gratis en compras de más de 50 €. Por debajo de esa cantidad, acordamos el coste por WhatsApp.'],
       ['¿Puedo cambiar el regalo si no gusta?', 'Sí, dentro de los plazos legales. Consulta nuestras condiciones de envíos y devoluciones o escríbenos por WhatsApp.']
     ],
     related: ['anillos', 'collares', 'pulseras', 'pendientes']
