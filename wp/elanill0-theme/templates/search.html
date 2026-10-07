@@ -1,0 +1,53 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:group {"tagName":"main","anchor":"contenido","className":"site-main","layout":{"type":"default"}} -->
+<main id="contenido" class="wp-block-group site-main"><!-- wp:group {"className":"wrap page-head","layout":{"type":"default"}} -->
+<div class="wp-block-group wrap page-head"><!-- wp:shortcode -->
+[elanill0_migas]
+<!-- /wp:shortcode -->
+<!-- wp:query-title {"type":"search","level":1} /-->
+<!-- wp:separator {"className":"bar"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity bar"/>
+<!-- /wp:separator -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"wrap shop-section","layout":{"type":"default"}} -->
+<div class="wp-block-group wrap shop-section"><!-- wp:query {"query":{"perPage":100,"pages":0,"offset":0,"postType":"producto","order":"asc","orderBy":"menu_order","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+<div class="wp-block-query"><!-- wp:post-template {"className":"products"} -->
+<!-- wp:group {"className":"product","layout":{"type":"default"}} -->
+<div class="wp-block-group product"><!-- wp:group {"className":"thumb-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group thumb-wrap"><!-- wp:post-featured-image {"isLink":true,"className":"thumb"} /-->
+<!-- wp:paragraph {"className":"badge","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"descuento"}}}}} -->
+<p class="badge"></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:post-terms {"term":"categoria-producto","className":"cat"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"className":"name"} /-->
+<!-- wp:group {"className":"price","layout":{"type":"default"}} -->
+<div class="wp-block-group price"><!-- wp:paragraph {"className":"price-old","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"precio_antes"}}}}} -->
+<p class="price-old"></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"price-now","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"precio"}}}}} -->
+<p class="price-now">Consultar precio</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:buttons {"className":"btn-wa-wrap"} -->
+<div class="wp-block-buttons btn-wa-wrap"><!-- wp:button {"className":"btn-wa","linkTarget":"_blank","rel":"noopener","metadata":{"bindings":{"url":{"source":"elanill0/producto","args":{"key":"whatsapp_url"}},"text":{"source":"elanill0/producto","args":{"key":"whatsapp_texto"}}}}} -->
+<div class="wp-block-button btn-wa"><a class="wp-block-button__link wp-element-button" href="https://wa.me/34605505120" target="_blank" rel="noopener">COMPRAR POR WHATSAPP</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-no-results -->
+<!-- wp:paragraph {"className":"empty"} -->
+<p class="empty">No hay productos que coincidan con tu búsqueda. <a href="/tienda/">Ver todos los productos</a> o <a href="https://wa.me/34605505120?text=Hola%2C%20quisiera%20informaci%C3%B3n%20sobre%20vuestras%20joyas." target="_blank" rel="noopener">pregúntanos por WhatsApp</a>.</p>
+<!-- /wp:paragraph -->
+<!-- /wp:query-no-results --></div>
+<!-- /wp:query -->
+</div>
+<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

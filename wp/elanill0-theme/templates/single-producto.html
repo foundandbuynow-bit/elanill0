@@ -1,0 +1,93 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<!-- wp:group {"tagName":"main","anchor":"contenido","className":"site-main","layout":{"type":"default"}} -->
+<main id="contenido" class="wp-block-group site-main"><!-- wp:group {"className":"wrap page-head crumbs-only","layout":{"type":"default"}} -->
+<div class="wp-block-group wrap page-head crumbs-only"><!-- wp:shortcode -->
+[elanill0_migas]
+<!-- /wp:shortcode -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"wrap pdp","layout":{"type":"default"}} -->
+<div class="wp-block-group wrap pdp"><!-- wp:group {"className":"gallery","layout":{"type":"default"}} -->
+<div class="wp-block-group gallery"><!-- wp:post-featured-image {"isLink":false,"className":"gallery-main"} /-->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"info","layout":{"type":"default"}} -->
+<div class="wp-block-group info"><!-- wp:post-terms {"term":"categoria-producto","className":"cat"} /-->
+<!-- wp:post-title {"level":1} /-->
+<!-- wp:group {"className":"price","layout":{"type":"default"}} -->
+<div class="wp-block-group price"><!-- wp:paragraph {"className":"price-old","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"precio_antes"}}}}} -->
+<p class="price-old"></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"price-now","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"precio"}}}}} -->
+<p class="price-now">Consultar precio</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"off","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"descuento"}}}}} -->
+<p class="off"></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph {"className":"tax"} -->
+<p class="tax">Pago y envío se acuerdan por WhatsApp.</p>
+<!-- /wp:paragraph -->
+<!-- wp:post-excerpt {"excerptLength":60,"className":"lead"} /-->
+<!-- wp:shortcode -->
+[elanill0_comprar]
+<!-- /wp:shortcode -->
+<!-- wp:list {"className":"perks"} -->
+<ul class="wp-block-list perks"><!-- wp:list-item -->
+<li>Pides por WhatsApp y te respondemos con disponibilidad y forma de pago.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Joya de acero inoxidable, pensada para el uso diario.</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>¿Dudas con la talla o el largo? Te asesoramos antes de comprar.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"wrap desc","layout":{"type":"default"}} -->
+<div class="wp-block-group wrap desc"><!-- wp:post-content {"layout":{"type":"default"}} /-->
+</div>
+<!-- /wp:group -->
+<!-- wp:group {"className":"wrap block","layout":{"type":"default"}} -->
+<div class="wp-block-group wrap block"><!-- wp:heading {"className":"label"} -->
+<h2 class="wp-block-heading label">También te puede gustar</h2>
+<!-- /wp:heading -->
+<!-- wp:query {"queryId":1,"query":{"perPage":4,"pages":0,"offset":0,"postType":"producto","order":"asc","orderBy":"menu_order","author":"","search":"","exclude":[],"sticky":"","inherit":false},"className":"related-products"} -->
+<div class="wp-block-query related-products"><!-- wp:post-template {"className":"products"} -->
+<!-- wp:group {"className":"product","layout":{"type":"default"}} -->
+<div class="wp-block-group product"><!-- wp:group {"className":"thumb-wrap","layout":{"type":"default"}} -->
+<div class="wp-block-group thumb-wrap"><!-- wp:post-featured-image {"isLink":true,"className":"thumb"} /-->
+<!-- wp:paragraph {"className":"badge","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"descuento"}}}}} -->
+<p class="badge"></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:post-terms {"term":"categoria-producto","className":"cat"} /-->
+<!-- wp:post-title {"level":3,"isLink":true,"className":"name"} /-->
+<!-- wp:group {"className":"price","layout":{"type":"default"}} -->
+<div class="wp-block-group price"><!-- wp:paragraph {"className":"price-old","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"precio_antes"}}}}} -->
+<p class="price-old"></p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph {"className":"price-now","metadata":{"bindings":{"content":{"source":"elanill0/producto","args":{"key":"precio"}}}}} -->
+<p class="price-now">Consultar precio</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:buttons {"className":"btn-wa-wrap"} -->
+<div class="wp-block-buttons btn-wa-wrap"><!-- wp:button {"className":"btn-wa","linkTarget":"_blank","rel":"noopener","metadata":{"bindings":{"url":{"source":"elanill0/producto","args":{"key":"whatsapp_url"}},"text":{"source":"elanill0/producto","args":{"key":"whatsapp_texto"}}}}} -->
+<div class="wp-block-button btn-wa"><a class="wp-block-button__link wp-element-button" href="https://wa.me/34605505120" target="_blank" rel="noopener">COMPRAR POR WHATSAPP</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query -->
+</div>
+<!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

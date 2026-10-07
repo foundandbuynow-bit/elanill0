@@ -1,0 +1,22 @@
+/* Correcciones propias del lienzo de Gutenberg: el editor impone position:relative a cada bloque,
+   así que las capas que el diseño saca del flujo se restablecen aquí. */
+.editor-styles-wrapper{background:#fff;color:#1A1A1A;font-family:"Jost","Helvetica Neue",Arial,sans-serif}
+.editor-styles-wrapper .hero-photo{position:absolute !important}
+.editor-styles-wrapper .banner>.wp-block-image,.editor-styles-wrapper .banner>figure{position:absolute !important}
+.editor-styles-wrapper .promo-text{position:absolute !important}
+.editor-styles-wrapper .banner-copy{position:absolute !important}
+.editor-styles-wrapper .hero{height:auto !important;min-height:480px}
+.editor-styles-wrapper .wrap{max-width:1160px;margin-left:auto;margin-right:auto}
+.editor-styles-wrapper .wp-block-post-template.products{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.editor-styles-wrapper .wp-block-post-template.products>li{margin:0 !important}
+.editor-styles-wrapper .wp-block-button{display:inline-block}
+
+/* el editor envuelve la imagen en contenedores redimensionables: se les da la altura del hueco */
+.editor-styles-wrapper .hero-photo figure,
+.editor-styles-wrapper .hero-photo .components-resizable-box__container,
+.editor-styles-wrapper .banner>figure .components-resizable-box__container,
+.editor-styles-wrapper .promo-photo figure,
+.editor-styles-wrapper .promo-photo .components-resizable-box__container{height:100% !important;width:100% !important;max-width:none !important}
+.editor-styles-wrapper .hero-photo img,
+.editor-styles-wrapper .banner>figure img,
+.editor-styles-wrapper .promo-photo img{width:100% !important;height:100% !important;object-fit:cover}

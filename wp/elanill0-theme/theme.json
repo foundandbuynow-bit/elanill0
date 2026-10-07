@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": false,
+    "useRootPaddingAwareAlignments": false,
+    "layout": { "contentSize": "1104px", "wideSize": "1104px" },
+    "spacing": { "blockGap": true, "units": ["px", "em", "rem", "%", "vw"] },
+    "color": {
+      "custom": true,
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "defaultDuotone": false,
+      "palette": [
+        { "slug": "rosa", "name": "Rosa", "color": "#D8A697" },
+        { "slug": "negro", "name": "Negro", "color": "#080808" },
+        { "slug": "blanco", "name": "Blanco", "color": "#FFFFFF" },
+        { "slug": "palido", "name": "Gris pálido", "color": "#FBF8F9" },
+        { "slug": "tinta", "name": "Tinta", "color": "#1A1A1A" },
+        { "slug": "gris", "name": "Gris", "color": "#7A7A7A" }
+      ]
+    },
+    "typography": {
+      "customFontSize": true,
+      "fluid": false,
+      "fontFamilies": [
+        {
+          "slug": "sans", "name": "Jost", "fontFamily": "\"Jost\", \"Helvetica Neue\", Arial, sans-serif",
+          "fontFace": [
+            { "fontFamily": "Jost", "fontStyle": "normal", "fontWeight": "400 600", "fontDisplay": "swap", "src": ["file:./assets/fonts/jost-latin.woff2"] }
+          ]
+        },
+        {
+          "slug": "serif", "name": "Playfair Display", "fontFamily": "\"Playfair Display\", Georgia, serif",
+          "fontFace": [
+            { "fontFamily": "Playfair Display", "fontStyle": "normal", "fontWeight": "400 700", "fontDisplay": "swap", "src": ["file:./assets/fonts/playfair-display-latin.woff2"] }
+          ]
+        }
+      ]
+    }
+  },
+  "styles": {
+    "spacing": { "blockGap": "0px" },
+    "color": { "background": "var(--wp--preset--color--blanco)", "text": "var(--wp--preset--color--tinta)" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--sans)", "fontSize": "16px", "lineHeight": "1.5" },
+    "elements": {
+      "link": { "color": { "text": "inherit" }, ":hover": { "color": { "text": "var(--wp--preset--color--rosa)" } }, "typography": { "textDecoration": "none" } },
+      "heading": { "typography": { "fontFamily": "var(--wp--preset--font-family--serif)", "fontWeight": "400", "lineHeight": "1.2" } }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Cabecera", "area": "header" },
+    { "name": "footer", "title": "Pie de página", "area": "footer" }
+  ]
+}
