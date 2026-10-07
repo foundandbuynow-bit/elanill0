@@ -1,0 +1,77 @@
+{
+  "categories": [
+    {
+      "slug": "anillos", "name": "Anillos", "cover": "img/colecciones/anillos-acero-inoxidable.webp",
+      "title": "Anillos de acero inoxidable para hombre y mujer",
+      "h1": "Anillos de acero inoxidable para hombre y mujer",
+      "metaTail": "Anillos de acero inoxidable desde {min} €: de sello para hombre, lisos, vintage y con bolas. Compra por WhatsApp.",
+      "intro": "Anillos de acero inoxidable lisos, vintage, con bolas y de sello para hombre. Piezas fáciles de combinar que se llevan a diario.",
+      "alt": "Anillos de acero inoxidable con bolas en dorado y plateado",
+      "body": [
+        { "h2": "Qué anillo de acero inoxidable elegir", "html": "<p>Si buscas un <a href=\"/producto/anillo-de-hombre-en-acero-inoxidable-plateado/\">anillo de sello para hombre</a>, el acabado plateado pulido es un clásico que combina con todo. Si prefieres algo discreto, el <a href=\"/producto/anillo-liso-de-acero-inoxidable-plateado/\">anillo liso</a> sirve como alianza informal o para apilar con otros. Para un estilo con historia, prueba el <a href=\"/producto/anillo-acero-inoxidable-vintage/\">anillo vintage con números romanos</a>, y para algo más actual, el <a href=\"/producto/anillo-de-acero-inoxidable-bolas-dorado-y-plateado/\">anillo abierto con bolas</a>.</p>" },
+        { "h2": "Cómo saber tu talla de anillo", "html": "<p>La talla correcta es la que te sienta cómoda al pasar el nudillo y no se mueve en exceso. Mide el contorno de tu dedo con un hilo y consulta nuestra <a href=\"/guias/talla-de-anillo/\">guía y tabla de tallas de anillo</a>. Si tienes dudas, escríbenos por WhatsApp antes de comprar.</p>" },
+        { "h2": "Por qué elegir anillos de acero inoxidable", "html": "<p>El acero inoxidable resiste el uso diario, el agua y la humedad sin oxidarse con facilidad, y es mucho más económico que el oro o la plata. Es una buena opción para quien quiere llevar anillos todos los días sin preocuparse. Descubre cómo mantenerlos en nuestra <a href=\"/guias/cuidado-del-acero/\">guía de cuidado del acero</a>.</p>" }
+      ],
+      "faq": [
+        ["¿Cómo elijo la talla de mi anillo?", "Mide el contorno de tu dedo con un hilo o una tira de papel y compáralo con nuestra tabla de tallas. Si estás entre dos tallas, elige la mayor. También puedes escribirnos por WhatsApp y te ayudamos."],
+        ["¿Los anillos de acero inoxidable se oxidan o cambian de color?", "El acero inoxidable no se oxida con facilidad y aguanta bien el agua y el uso diario. En las piezas de acabado dorado, el color puede desgastarse con el roce y el tiempo, por eso conviene cuidarlas y guardarlas por separado."],
+        ["¿Son anillos para hombre o para mujer?", "La mayoría de nuestros anillos son unisex. El anillo de sello está pensado sobre todo para hombre, y los anillos lisos, vintage y con bolas los llevan tanto hombres como mujeres."],
+        ["¿Cómo compro un anillo?", "Pulsa «Comprar por WhatsApp» en el anillo que te guste e indica tu talla. Te confirmamos disponibilidad, forma de pago y envío."]
+      ]
+    },
+    {
+      "slug": "collares", "name": "Collares", "cover": "img/colecciones/collares-acero-inoxidable.webp",
+      "title": "Collares y cadenas de acero inoxidable",
+      "h1": "Collares y cadenas de acero inoxidable",
+      "metaTail": "Collares y cadenas de acero inoxidable desde {min} €: eslabones cubanos y cuerda trenzada en varias longitudes. Compra por WhatsApp.",
+      "intro": "Cadenas de acero inoxidable en eslabón cubano y cuerda trenzada, en varias longitudes, para llevar solas o en capas.",
+      "alt": "Collares de eslabones cubanos de acero inoxidable sobre un busto",
+      "body": [
+        { "h2": "Cadena cubana o cadena de cuerda: cuál elegir", "html": "<p>El <a href=\"/producto/collar-de-eslabones-cubanos-de-acero/\">collar de eslabones cubanos</a> tiene 5 mm de ancho y mucha presencia, ideal para quien busca una cadena protagonista. La <a href=\"/producto/collar-de-cadena-de-cuerda-trenzada-de-acero-inoxidable/\">cadena de cuerda trenzada</a>, de 3 mm, es más fina y elegante, perfecta sola o como base de capas.</p>" },
+        { "h2": "Qué largo de cadena elegir: 50, 60 o 70 cm", "html": "<p>Con 50 cm la cadena queda a la altura de la clavícula; con 60 cm cae unos centímetros más abajo, y con 70 cm llega al pecho. Para combinar varias cadenas, mezcla longitudes. Lo explicamos paso a paso en la <a href=\"/guias/largo-de-cadena/\">guía para elegir el largo de una cadena</a>.</p>" },
+        { "h2": "Collares de acero inoxidable para hombre y mujer", "html": "<p>Nuestras cadenas son unisex: una misma pieza queda bien con una camiseta básica o con una camisa. Además, hacen juego con las <a href=\"/categoria-producto/pulseras/\">pulseras de acero inoxidable</a> de la tienda.</p>" }
+      ],
+      "faq": [
+        ["¿Qué largo de cadena me conviene?", "50 cm es el largo más habitual (a la altura de la clavícula), 60 cm es una opción versátil y 70 cm es una cadena larga para llevar sobre el pecho o en capas. Si dudas, escríbenos."],
+        ["¿Las cadenas de acero inoxidable se oscurecen?", "El acero inoxidable no se oxida con facilidad. Para que mantenga el brillo, límpialo con agua tibia y jabón suave, sécalo bien y guárdalo por separado."],
+        ["¿Cuál es la diferencia entre cadena cubana y cadena de cuerda?", "La cadena cubana tiene eslabones planos y entrelazados, más gruesos y con más presencia. La cadena de cuerda tiene un trenzado retorcido más fino que atrapa la luz."]
+      ]
+    },
+    {
+      "slug": "pulseras", "name": "Pulseras", "cover": "img/colecciones/pulseras-acero-inoxidable.webp",
+      "title": "Pulseras y brazaletes de acero inoxidable",
+      "h1": "Pulseras y brazaletes de acero inoxidable",
+      "metaTail": "Pulseras y brazaletes de acero inoxidable desde {min} €: cadena cubana, brazaletes abiertos y modelos vintage. Compra por WhatsApp.",
+      "intro": "Brazaletes abiertos, pulseras vintage y cadenas cubanas de acero inoxidable con un acabado de alto brillo.",
+      "alt": "Brazaletes abiertos de acero inoxidable en plateado, dorado y negro",
+      "body": [
+        { "h2": "Brazaletes y pulseras para todos los estilos", "html": "<p>Los <a href=\"/producto/brazalete-abierto-de-acero-inoxidable-trenzado/\">brazaletes abiertos</a> son fáciles de poner y se ajustan a la muñeca. La <a href=\"/producto/pulsera-de-cadena-cubana-acero-inoxidable/\">pulsera de cadena cubana</a> es un clásico para hombre y mujer, y la <a href=\"/producto/pulsera-acero-inoxidable-vintage/\">pulsera vintage</a> aporta un aire artesanal.</p>" },
+        { "h2": "Cómo combinar pulseras de acero inoxidable", "html": "<p>Mezcla un brazalete con una cadena fina, o lleva uno solo como pieza protagonista. Si usas reloj, el acero inoxidable combina muy bien con esfera y correa metálicas. Para completar el look, mira los <a href=\"/categoria-producto/collares/\">collares y cadenas</a>.</p>" },
+        { "h2": "Cuidado de las pulseras de acero", "html": "<p>Límpialas con agua tibia, jabón suave y un paño sin pelusa. Evita el contacto prolongado con productos químicos y guárdalas por separado. Todos los detalles están en la <a href=\"/guias/cuidado-del-acero/\">guía de cuidado</a>.</p>" }
+      ],
+      "faq": [
+        ["¿Cómo sé si una pulsera me queda bien?", "Los brazaletes abiertos se ajustan a la muñeca con facilidad. Para pulseras de cadena conviene medir la muñeca y sumar uno o dos centímetros. Si tienes dudas, escríbenos por WhatsApp."],
+        ["¿Puedo llevar pulseras de acero inoxidable en la ducha?", "El acero soporta bien el agua, pero el jabón, el cloro y la sal pueden apagar el brillo con el tiempo. Lo ideal es quitártelas y aclararlas si han estado en contacto con ellos."],
+        ["¿Hay pulseras unisex?", "Sí. Los brazaletes y la cadena cubana los llevan tanto hombres como mujeres."]
+      ]
+    },
+    {
+      "slug": "pendientes", "name": "Pendientes", "cover": "img/colecciones/pendientes-acero-inoxidable.webp",
+      "title": "Pendientes y aros de acero inoxidable",
+      "h1": "Pendientes y aros de acero inoxidable",
+      "metaTail": "Pendientes y aros de acero inoxidable desde {min} €: lisos, huecos y trenzados en varios tamaños. Compra por WhatsApp.",
+      "intro": "Aros lisos, huecos y trenzados de acero inoxidable en distintos tamaños, de lo más discreto a lo más llamativo.",
+      "alt": "Pendientes de aro de acero inoxidable lisos en dorado y plateado",
+      "body": [
+        { "h2": "Aros de acero inoxidable: elige tu tamaño", "html": "<p>Los <a href=\"/producto/pendientes-de-acero-inoxidable-lisos/\">aros lisos</a> son el básico perfecto para el día a día. Si buscas más presencia, los <a href=\"/producto/pendientes-de-aro-grandes-trenzados-de-acero/\">aros grandes trenzados</a> atrapan la luz, y los <a href=\"/producto/pendientes-de-acero-inoxidable-aro-liso/\">aros lisos de 20, 45 y 70 mm</a> te permiten elegir desde lo más discreto hasta lo más llamativo.</p>" },
+        { "h2": "Pendientes huecos y con detalles", "html": "<p>Los <a href=\"/producto/pendientes-de-acero-inoxidable-hueco/\">pendientes de aro huecos</a> con bolita y alambre trenzado dan un toque diferente sin cargar el lóbulo, y son cómodos para llevar todo el día.</p>" },
+        { "h2": "Piel sensible y pendientes", "html": "<p>Si tienes la piel sensible o alergia a algún metal, consulta a tu médico o dermatólogo antes de usar cualquier pendiente nuevo. Escríbenos si quieres saber más sobre el material de una pieza concreta.</p>" }
+      ],
+      "faq": [
+        ["¿Qué tamaño de aro elijo?", "Los aros de 20 mm quedan ceñidos al lóbulo, los de 45 mm son un tamaño medio y los de 70 mm son grandes y llamativos. Si dudas, empieza por 45 mm."],
+        ["¿Se pueden llevar los pendientes de acero inoxidable para dormir o ducharse?", "El acero resiste el agua, pero es mejor quitárselos para dormir y aclararlos si han estado en contacto con jabón, cloro o sal."],
+        ["¿Los aros de acero inoxidable se oxidan?", "El acero inoxidable no se oxida con facilidad. En las piezas de acabado dorado, el color puede desgastarse con el tiempo y el roce."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "name": "elanill0-sitio-escaparate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio escaparate de Elanill0 (joyas de acero inoxidable): generador estático, comprobaciones SEO y vista previa.",
+  "scripts": {
+    "og": "node scripts/make-og.js",
+    "build": "node scripts/make-og.js && node scripts/build.js",
+    "check": "node scripts/check-links.js && node scripts/check-seo.js",
+    "preview": "node scripts/preview.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}

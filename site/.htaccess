@@ -1,0 +1,20 @@
+# Redirecciones 301 desde las URL antiguas (Apache / WordPress)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+</IfModule>
+Redirect 301 /shop/ /tienda/
+Redirect 301 /shop/page/2/ /tienda/
+Redirect 301 /product-category/anillos/ /categoria-producto/anillos/
+Redirect 301 /contact-us/ /contacto/
+Redirect 301 /about-us-3/ /sobre-nosotros/
+Redirect 301 /home-jewellery/ /
+Redirect 301 /blog/ /guias/
+Redirect 301 /portfolio/ /
+Redirect 301 /wishlist/ /tienda/
+Redirect 301 /compare/ /tienda/
+Redirect 301 /carrito/ /tienda/
+Redirect 301 /finalizar-compra/ /tienda/
+Redirect 301 /mi-cuenta/ /contacto/
+Redirect 301 /cuidado-del-acero.html /guias/cuidado-del-acero/
+Redirect 301 /producto/anillo-acero-inoxidable-simple-y-liso-color-plateado-talla-6-8-10-12/ /producto/anillo-liso-de-acero-inoxidable-plateado/
+Redirect 301 /producto/pendiente-de-aro-dorado-y-plateado/ /producto/anillo-de-acero-inoxidable-bolas-dorado-y-plateado/

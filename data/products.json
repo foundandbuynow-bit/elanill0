@@ -1,71 +1,117 @@
 {
-  "_comment": "Productos y precios copiados de https://elanill0.com/shop/ (API WooCommerce) el 2026-10-07. price = precio actual; oldPrice = precio original tachado; price null = sin precio en la web original.",
-  "categories": [
-    { "slug": "anillos",    "name": "Anillos",    "cover": "img/colecciones/anillos.webp",    "intro": "Anillos de acero inoxidable lisos, vintage, con bolas y tipo sello para hombre. Piezas fáciles de combinar que se llevan a diario." },
-    { "slug": "collares",   "name": "Collares",   "cover": "img/colecciones/collares.webp",   "intro": "Cadenas de acero inoxidable en eslabón cubano y cuerda trenzada, en varias longitudes, para llevar solas o en capas." },
-    { "slug": "pulseras",   "name": "Pulseras",   "cover": "img/colecciones/pulseras.webp",   "intro": "Brazaletes abiertos, pulseras vintage y cadenas cubanas de acero inoxidable con un acabado de alto brillo." },
-    { "slug": "pendientes", "name": "Pendientes", "cover": "img/colecciones/pendientes.webp", "intro": "Aros lisos, huecos y trenzados de acero inoxidable en distintos tamaños, de lo más discreto a lo más llamativo." }
-  ],
+  "_comment": "Productos y precios copiados de https://elanill0.com/shop/ (API WooCommerce) el 2026-10-07. price = precio actual; oldPrice = precio original tachado; price null = sin precio en la web original. slug = URL /producto/<slug>/ ; legacySlug = URL antigua que se redirige (301) a la nueva.",
   "products": [
     {
       "id": 29182, "slug": "pendientes-de-acero-inoxidable-lisos", "cat": "pendientes",
-      "name": "Pendientes de acero inoxidable lisos", "price": 11, "oldPrice": 20,
-      "images": ["Pendientes-de-acero-inoxidable-lisos.webp"],
-      "summary": "Pendientes lisos de acero inoxidable, sencillos y fáciles de combinar con cualquier look.",
+      "name": "Pendientes de aro lisos de acero inoxidable", "titleName": "Pendientes de aro lisos de acero inoxidable",
+      "hook": "Aros lisos y sencillos para llevar a diario.",
+      "price": 11, "oldPrice": 20,
+      "images": ["pendientes-acero-inoxidable-lisos.webp"],
+      "alts": ["Pendientes de aro lisos de acero inoxidable en dorado y plateado"],
+      "summary": "Aros lisos de acero inoxidable, sencillos y fáciles de combinar con cualquier look, de día o de noche.",
+      "long": [
+        "Estos pendientes de aro liso son de esas piezas que se ponen por la mañana y ya no se quitan hasta la noche. Su diseño limpio, sin adornos, los hace perfectos para combinar con otros pendientes, con tus collares o con un look completamente minimalista.",
+        "Al ser de acero inoxidable, aguantan el uso diario sin complicaciones: basta limpiarlos con agua tibia y jabón suave, como explicamos en nuestra <a href=\"/guias/cuidado-del-acero/\">guía de cuidado del acero</a>. Si buscas un modelo más grande, mira nuestros <a href=\"/producto/pendientes-de-aro-grandes-trenzados-de-acero/\">aros grandes trenzados</a>."
+      ],
       "details": []
     },
     {
       "id": 29179, "slug": "collar-de-cadena-de-cuerda-trenzada-de-acero-inoxidable", "cat": "collares",
-      "name": "Collar de cadena de cuerda trenzada de acero inoxidable", "price": 12, "oldPrice": 20,
-      "images": ["Collar-de-cadena-de-cuerda-trenzada.webp"],
-      "summary": "Collar de cadena de cuerda trenzada de acero inoxidable.",
-      "details": ["Grosor: 3 mm", "Longitudes: 50 cm, 60 cm, 70 cm"],
+      "name": "Collar de cadena de cuerda trenzada de acero inoxidable", "titleName": "Collar cadena de cuerda trenzada acero inoxidable",
+      "hook": "Cadena de cuerda de 3 mm en 50, 60 o 70 cm.",
+      "price": 12, "oldPrice": 20,
+      "images": ["collar-cadena-cuerda-trenzada-acero-inoxidable.webp"],
+      "alts": ["Collar de cadena de cuerda trenzada de acero inoxidable con cierre de mosquetón"],
+      "summary": "Cadena de cuerda trenzada de acero inoxidable de 3 mm de grosor, con cierre de mosquetón y disponible en tres longitudes.",
+      "long": [
+        "La cadena de cuerda trenzada es un clásico que nunca pasa de moda: su textura retorcida atrapa la luz y da más vida que una cadena lisa. Con 3 mm de grosor es discreta y elegante, ideal para llevar sola o como base de tus capas.",
+        "Elige entre 50 cm (a la altura de la clavícula), 60 cm o 70 cm (más larga, sobre el pecho). Si no sabes cuál te conviene, consulta nuestra <a href=\"/guias/largo-de-cadena/\">guía para elegir el largo de una cadena</a> o pregúntanos por WhatsApp."
+      ],
+      "details": ["Grosor: 3 mm", "Longitudes: 50 cm, 60 cm, 70 cm", "Cierre de mosquetón"],
       "option": { "label": "Longitud", "values": ["50 cm", "60 cm", "70 cm"] }
     },
     {
       "id": 29175, "slug": "brazalete-de-acero-inoxidable", "cat": "pulseras",
-      "name": "Brazalete de acero inoxidable", "price": 14, "oldPrice": 24,
-      "images": ["Brazalete-de-acero-inoxidable.webp"],
-      "summary": "Brazalete de acero inoxidable de líneas limpias.",
-      "details": []
+      "name": "Brazalete de cable de acero inoxidable con bola central", "titleName": "Brazalete de cable acero inoxidable con bola",
+      "hook": "Brazalete abierto de cable con bola central.",
+      "price": 14, "oldPrice": 24,
+      "images": ["brazalete-acero-inoxidable.webp"],
+      "alts": ["Brazalete abierto de cable de acero inoxidable con bola central y anillos decorativos"],
+      "summary": "Brazalete abierto de acero inoxidable con textura de cable y una bola central que le da personalidad.",
+      "long": [
+        "Un brazalete abierto con textura de cable trenzado y una bola pulida en el centro, flanqueada por pequeños anillos. Es una pieza con carácter que funciona igual de bien en una muñeca masculina que en una femenina.",
+        "Por su diseño abierto es fácil de poner y de quitar. Combínalo con un reloj, con otras pulseras finas o llévalo solo como pieza protagonista. Lo encontrarás junto al resto de nuestras <a href=\"/categoria-producto/pulseras/\">pulseras y brazaletes de acero inoxidable</a>."
+      ],
+      "details": ["Diseño abierto de cable con bola central"]
     },
     {
-      "id": 29172, "slug": "anillo-acero-inoxidable-simple-y-liso", "cat": "anillos",
-      "name": "Anillo de acero inoxidable simple y liso", "price": 15, "oldPrice": 25,
-      "images": ["Anillo-acero-inoxidable-simple.webp"],
-      "summary": "Anillo simple y liso de acero inoxidable.",
+      "id": 29172, "slug": "anillo-liso-de-acero-inoxidable-plateado", "legacySlug": "anillo-acero-inoxidable-simple-y-liso-color-plateado-talla-6-8-10-12", "cat": "anillos",
+      "name": "Anillo liso de acero inoxidable plateado", "titleName": "Anillo liso de acero inoxidable plateado",
+      "hook": "Banda lisa plateada en tallas 6, 8, 10 y 12.",
+      "price": 15, "oldPrice": 25,
+      "images": ["anillo-liso-acero-inoxidable.webp"],
+      "alts": ["Anillo liso de acero inoxidable plateado, banda simple y pulida"],
+      "summary": "Anillo simple y liso de acero inoxidable plateado, una banda pulida que sirve para hombre y mujer.",
+      "long": [
+        "Una banda lisa, pulida y sin adornos: el anillo más versátil que puedes tener. Se lleva solo, apilado con otros anillos o como alianza informal, tanto en mano de hombre como de mujer.",
+        "Está disponible en las tallas 6, 8, 10 y 12 (tallas estadounidenses). ¿No sabes cuál es la tuya? Mide tu dedo con nuestra <a href=\"/guias/talla-de-anillo/\">guía y tabla de tallas de anillo</a> y, si tienes dudas, escríbenos antes de comprar."
+      ],
       "details": ["Color: plateado", "Tallas: 6, 8, 10, 12"],
       "option": { "label": "Talla", "values": ["6", "8", "10", "12"] }
     },
     {
       "id": 29169, "slug": "pulsera-acero-inoxidable-vintage", "cat": "pulseras",
-      "name": "Pulsera de acero inoxidable vintage", "price": 16, "oldPrice": 22,
-      "images": ["Pulsera-acero-inoxidable-vintage.webp"],
-      "summary": "Pulsera de acero inoxidable con aire vintage.",
-      "details": []
+      "name": "Pulsera vintage abierta de acero inoxidable", "titleName": "Pulsera vintage abierta de acero inoxidable",
+      "hook": "Pulsera abierta de aire vintage y textura trenzada.",
+      "price": 16, "oldPrice": 22,
+      "images": ["pulsera-vintage-acero-inoxidable.webp"],
+      "alts": ["Pulsera vintage abierta de acero inoxidable con textura trenzada y remates redondeados"],
+      "summary": "Pulsera abierta de acero inoxidable con textura trenzada y acabado envejecido de aire vintage.",
+      "long": [
+        "El acabado envejecido y la textura trenzada le dan a esta pulsera un aire artesanal y atemporal. Su diseño abierto con remates redondeados se ajusta a la muñeca con facilidad.",
+        "Es una pieza pensada para destacar sin esfuerzo: llévala sola o junto a otras <a href=\"/categoria-producto/pulseras/\">pulseras de acero inoxidable</a> para crear tu propia combinación. Para mantener su aspecto, límpiala con un paño suave y guárdala por separado."
+      ],
+      "details": ["Diseño abierto", "Acabado vintage"]
     },
     {
       "id": 29165, "slug": "pendientes-de-aro-grandes-trenzados-de-acero", "cat": "pendientes",
-      "name": "Pendientes de aro grandes trenzados de acero", "price": 12, "oldPrice": 20,
-      "images": ["Pendientes-de-aro-grandes-trenzados.webp", "Pendientes-de-aro-grandes-trenzados-1.webp"],
-      "summary": "Aros grandes trenzados de acero inoxidable.",
-      "details": []
+      "name": "Pendientes de aro grandes trenzados de acero inoxidable", "titleName": "Pendientes de aro grandes trenzados de acero",
+      "hook": "Aros grandes con efecto trenzado que atrapa la luz.",
+      "price": 12, "oldPrice": 20,
+      "images": ["pendientes-aro-grandes-trenzados-acero.webp", "pendientes-aro-grandes-trenzados-acero-2.webp"],
+      "alts": ["Pendientes de aro grandes trenzados de acero inoxidable con cierre de clip", "Mujer sonriendo con pendientes de aro grandes de acero inoxidable"],
+      "summary": "Aros grandes de acero inoxidable con efecto trenzado, pensados para dar protagonismo a tu look.",
+      "long": [
+        "Los aros grandes son tendencia todo el año, y su acabado trenzado les da un brillo extra: cada giro refleja la luz de forma distinta. Son ligeros de aspecto, con cierre de clip y un diseño que se nota sin recargar.",
+        "Quedan genial con recogidos y pelo suelto, y combinan con un look sencillo para darle un punto especial. Si prefieres algo más discreto, tenemos <a href=\"/producto/pendientes-de-acero-inoxidable-lisos/\">aros lisos</a> y <a href=\"/producto/pendientes-de-acero-inoxidable-aro-liso/\">aros lisos en tres tamaños</a>."
+      ],
+      "details": ["Aros grandes con efecto trenzado", "Cierre de clip"]
     },
     {
       "id": 29160, "slug": "pulsera-de-cadena-cubana-acero-inoxidable", "cat": "pulseras",
-      "name": "Pulsera de cadena cubana de acero inoxidable", "price": 14, "oldPrice": 20,
-      "images": ["Pulsera-de-cadena-cubana-acero-inoxidable.webp"],
-      "summary": "Pulsera de cadena cubana de acero inoxidable.",
-      "details": []
+      "name": "Pulsera de cadena cubana de acero inoxidable", "titleName": "Pulsera de cadena cubana de acero inoxidable",
+      "hook": "Cadena cubana plateada para hombre y mujer.",
+      "price": 14, "oldPrice": 20,
+      "images": ["pulsera-cadena-cubana-acero-inoxidable.webp"],
+      "alts": ["Pulsera de cadena cubana de acero inoxidable en distintos grosores"],
+      "summary": "Pulsera de cadena cubana de acero inoxidable plateado, un eslabón clásico con mucha presencia.",
+      "long": [
+        "La cadena cubana es uno de los eslabones más buscados: plano, robusto y con un brillo muy reconocible. Esta pulsera de acero inoxidable la lleva a la muñeca en un acabado plateado que combina con todo.",
+        "Funciona como pieza única o acompañada de otro brazalete o un reloj, y es una gran opción de regalo para hombre. Si te gusta el estilo, hace juego con nuestro <a href=\"/producto/collar-de-eslabones-cubanos-de-acero/\">collar de eslabones cubanos</a>."
+      ],
+      "details": ["Eslabón cubano", "Color: plateado"]
     },
     {
       "id": 29156, "slug": "anillo-de-hombre-en-acero-inoxidable-plateado", "cat": "anillos",
-      "name": "Anillo de hombre en acero inoxidable plateado", "price": 15, "oldPrice": 25,
-      "images": ["Anillo-liso-de-acero-inoxidable.webp", "Anillo-liso-de-acero-inoxidable1.webp"],
+      "name": "Anillo de sello para hombre de acero inoxidable plateado", "titleName": "Anillo de sello hombre acero inoxidable plateado",
+      "hook": "Anillo de sello plateado, moderno y minimalista.",
+      "price": 15, "oldPrice": 25,
+      "images": ["anillo-sello-hombre-acero-inoxidable-plateado.webp", "anillo-sello-hombre-acero-inoxidable-plateado-2.webp"],
+      "alts": ["Anillo de sello para hombre de acero inoxidable plateado con superficie rectangular pulida", "Hombre con anillo de sello plateado de acero inoxidable y cadena al cuello"],
       "summary": "Dale un toque moderno y sofisticado a tu estilo con este anillo de hombre en acabado plateado: una pieza elegante, minimalista y fácil de combinar.",
       "long": [
         "Su diseño tipo sello, con superficie rectangular de bordes redondeados y acabado pulido, aporta una apariencia masculina y contemporánea. Es perfecto para complementar tanto looks casuales como estilos más formales.",
-        "Ideal para: uso diario, ocasiones especiales, eventos, cenas, reuniones o como regalo para pareja, amigo, padre o hermano."
+        "Ideal para: uso diario, ocasiones especiales, eventos, cenas, reuniones o como regalo para pareja, amigo, padre o hermano. Si estás buscando <a href=\"/guias/regalos-de-joyas/\">ideas de regalo de joyas</a>, esta es una apuesta segura. Antes de elegir, consulta la <a href=\"/guias/talla-de-anillo/\">guía de tallas de anillo</a>."
       ],
       "details": [
         "Diseño moderno y minimalista",
@@ -77,47 +123,89 @@
     },
     {
       "id": 29132, "slug": "collar-de-eslabones-cubanos-de-acero", "cat": "collares",
-      "name": "Collar de eslabones cubanos de acero inoxidable", "price": 16, "oldPrice": 22,
-      "images": ["Collar-de-eslabones-cubanos-de-acero.webp"],
-      "summary": "Collar de eslabones cubanos de acero inoxidable.",
+      "name": "Collar de eslabones cubanos de acero inoxidable", "titleName": "Collar de eslabones cubanos de acero inoxidable",
+      "hook": "Cadena cubana plateada de 5 mm en 55, 60 o 70 cm.",
+      "price": 16, "oldPrice": 22,
+      "images": ["collar-eslabones-cubanos-acero-inoxidable.webp"],
+      "alts": ["Collares de eslabones cubanos de acero inoxidable de distintos grosores sobre un busto negro"],
+      "summary": "Collar de eslabones cubanos de acero inoxidable plateado, de 5 mm de ancho y disponible en tres longitudes.",
+      "long": [
+        "Una cadena de eslabones cubanos con 5 mm de ancho: lo bastante presente para notarse y lo bastante sobria para llevarla todos los días. Su acabado plateado y brillante combina con anillos, pulseras y relojes.",
+        "Puedes elegirla en 55 cm, 60 cm o 70 cm. Si dudas con el largo, la <a href=\"/guias/largo-de-cadena/\">guía de longitud de cadenas</a> te ayuda a decidir, y puedes completar el conjunto con la <a href=\"/producto/pulsera-de-cadena-cubana-acero-inoxidable/\">pulsera de cadena cubana</a>."
+      ],
       "details": ["Color: plateado", "Ancho: 5 mm", "Longitudes: 55 cm, 60 cm, 70 cm"],
       "option": { "label": "Longitud", "values": ["55 cm", "60 cm", "70 cm"] }
     },
     {
       "id": 29120, "slug": "pendientes-de-acero-inoxidable-hueco", "cat": "pendientes",
-      "name": "Pendientes de acero inoxidable huecos", "price": 14, "oldPrice": 25,
-      "images": ["Pendientes-de-acero-inoxidable-hueco.webp"],
-      "summary": "Pendientes huecos de acero inoxidable.",
-      "details": []
+      "name": "Pendientes de aro huecos de acero inoxidable", "titleName": "Pendientes de aro huecos de acero inoxidable",
+      "hook": "Aros huecos con detalle de bolita y alambre trenzado.",
+      "price": 14, "oldPrice": 25,
+      "images": ["pendientes-huecos-acero-inoxidable.webp"],
+      "alts": ["Pendientes de aro huecos de acero inoxidable dorados con bolita y detalle de alambre trenzado"],
+      "summary": "Aros huecos de acero inoxidable con una bolita y detalles de alambre trenzado que les dan un toque especial.",
+      "long": [
+        "Estos aros mezclan un diseño clásico con un detalle diferente: una bolita central y pequeños enrollados de alambre trenzado que aportan textura. Es una forma sencilla de darle personalidad a tu look sin cargar el peso.",
+        "El diseño hueco los hace cómodos de llevar durante todo el día. Limpia el acero con un paño suave y agua tibia para mantener su brillo, y descubre más modelos en nuestra colección de <a href=\"/categoria-producto/pendientes/\">pendientes de acero inoxidable</a>."
+      ],
+      "details": ["Diseño de aro hueco", "Detalle de bolita y alambre trenzado"]
     },
     {
       "id": 29117, "slug": "pendientes-de-acero-inoxidable-aro-liso", "cat": "pendientes",
-      "name": "Pendientes de acero inoxidable de aro liso", "price": null, "oldPrice": null,
-      "images": ["Pendientes-de-acero-inoxidable.webp"],
-      "summary": "Aros lisos de acero inoxidable en tres tamaños.",
+      "name": "Aros lisos plateados de acero inoxidable: 20, 45 y 70 mm", "titleName": "Aros lisos de acero inoxidable 20, 45 y 70 mm",
+      "hook": "Aros lisos plateados en tres tamaños.",
+      "price": null, "oldPrice": null,
+      "images": ["pendientes-aro-liso-acero-inoxidable.webp"],
+      "alts": ["Aros lisos de acero inoxidable en distintos colores y tamaños de 20 a 70 milímetros"],
+      "summary": "Aros lisos de acero inoxidable plateado en tres tamaños (20, 45 y 70 mm), del más discreto al más llamativo.",
+      "long": [
+        "Un aro liso puede ser casi invisible o convertirse en el protagonista, según el tamaño que elijas. Los de 20 mm quedan pegados al lóbulo, los de 45 mm son el punto medio y los de 70 mm dan un toque más atrevido.",
+        "Escríbenos por WhatsApp y te confirmamos el precio y la disponibilidad del tamaño que prefieras. También puedes ver otros <a href=\"/categoria-producto/pendientes/\">pendientes de aro de acero inoxidable</a>."
+      ],
       "details": ["Color: plateado", "Tamaños: 20 mm, 45 mm, 70 mm"],
       "option": { "label": "Tamaño", "values": ["20 mm", "45 mm", "70 mm"] }
     },
     {
       "id": 29112, "slug": "anillo-acero-inoxidable-vintage", "cat": "anillos",
-      "name": "Anillo de acero inoxidable vintage", "price": 13, "oldPrice": 20,
-      "images": ["Anillos-Metalicos-con-Numerales-Romanos.webp"],
-      "summary": "Anillo vintage de acero inoxidable con numerales romanos.",
-      "details": []
+      "name": "Anillo vintage con números romanos de acero inoxidable", "titleName": "Anillo vintage números romanos acero inoxidable",
+      "hook": "Banda con números romanos grabados en relieve.",
+      "price": 13, "oldPrice": 20,
+      "images": ["anillo-vintage-numeros-romanos-acero-inoxidable.webp"],
+      "alts": ["Anillos vintage de acero inoxidable con números romanos en relieve, en plateado, dorado y negro"],
+      "summary": "Anillo vintage de acero inoxidable con números romanos en relieve alrededor de toda la banda.",
+      "long": [
+        "Una banda ancha con números romanos en relieve que recuerda a la esfera de un reloj clásico. Es un anillo con historia, que sirve igual para hombre que para mujer y que funciona solo o apilado.",
+        "Su estilo vintage lo hace una idea de regalo diferente. Antes de comprar, mide tu dedo con la <a href=\"/guias/talla-de-anillo/\">tabla de tallas de anillo</a> y escríbenos para confirmar la talla y el color disponibles."
+      ],
+      "details": ["Números romanos en relieve", "Estilo vintage"]
     },
     {
       "id": 29109, "slug": "brazalete-abierto-de-acero-inoxidable-trenzado", "cat": "pulseras",
-      "name": "Brazalete abierto de acero inoxidable trenzado", "price": 12, "oldPrice": 18,
-      "images": ["Brazalete-abierto-de-acero-inoxidable-trenzado.webp"],
-      "summary": "Brazalete abierto trenzado de acero inoxidable.",
-      "details": []
+      "name": "Brazalete abierto trenzado de acero inoxidable", "titleName": "Brazalete abierto trenzado de acero inoxidable",
+      "hook": "Diseño retorcido, para él y para ella.",
+      "price": 12, "oldPrice": 18,
+      "images": ["brazalete-abierto-trenzado-acero-inoxidable.webp"],
+      "alts": ["Brazaletes abiertos trenzados de acero inoxidable en plateado, dorado y negro"],
+      "summary": "Brazalete abierto de acero inoxidable con diseño retorcido: líneas limpias, mucho brillo y un ajuste fácil.",
+      "long": [
+        "Un brazalete abierto cuyo giro retorcido crea reflejos distintos desde cada ángulo. Su diseño minimalista lo convierte en una pieza unisex fácil de combinar con relojes, pulseras finas o con nada más.",
+        "Al ser abierto, se ajusta a la muñeca con facilidad. Descubre más modelos en nuestra colección de <a href=\"/categoria-producto/pulseras/\">pulseras y brazaletes de acero inoxidable</a> y escríbenos para confirmar los colores disponibles."
+      ],
+      "details": ["Diseño abierto", "Estilo minimalista unisex"]
     },
     {
-      "id": 29101, "slug": "anillo-de-acero-inoxidable-bolas-dorado-y-plateado", "cat": "anillos",
-      "name": "Anillo de acero inoxidable con bolas, dorado y plateado", "price": 13, "oldPrice": 20,
-      "images": ["pendiente-de-aro-dorado-y-plateado.webp"],
-      "summary": "Anillo abierto de acero inoxidable con bolas, en dorado y plateado.",
-      "details": []
+      "id": 29101, "slug": "anillo-de-acero-inoxidable-bolas-dorado-y-plateado", "legacySlug": "pendiente-de-aro-dorado-y-plateado", "cat": "anillos",
+      "name": "Anillo abierto con bolas de acero inoxidable, dorado y plateado", "titleName": "Anillo abierto con bolas de acero inoxidable",
+      "hook": "Anillo abierto con bolas, en dorado y plateado.",
+      "price": 13, "oldPrice": 20,
+      "images": ["anillo-bolas-dorado-plateado-acero-inoxidable.webp"],
+      "alts": ["Anillos abiertos con bolas de acero inoxidable en dorado y plateado"],
+      "summary": "Anillo abierto de acero inoxidable con bolas, en dorado y plateado, un diseño divertido y actual.",
+      "long": [
+        "Un anillo abierto con bolas pulidas en los extremos y varias bolitas en el centro: un diseño actual y llamativo que se lleva solo o mezclado con otros anillos. Está disponible en dorado y en plateado.",
+        "Combina un anillo dorado y uno plateado para un look más atrevido, o elige un solo tono si prefieres algo discreto. Más ideas en nuestra colección de <a href=\"/categoria-producto/anillos/\">anillos de acero inoxidable</a>; antes de elegir, revisa la <a href=\"/guias/talla-de-anillo/\">guía de tallas</a>."
+      ],
+      "details": ["Diseño abierto con bolas", "Colores: dorado y plateado"]
     }
   ]
 }

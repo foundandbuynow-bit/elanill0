@@ -25,7 +25,8 @@
       var shown = 0;
       cards.forEach(function (c) {
         var okCat = state.cat === 'todos' || c.dataset.cat === state.cat;
-        var okQ = !state.q || norm(c.dataset.name + ' ' + c.dataset.cat).indexOf(norm(state.q)) !== -1;
+        var hay = norm(c.dataset.search || (c.dataset.name + ' ' + c.dataset.cat));
+        var okQ = !state.q || norm(state.q).split(/\s+/).every(function (w) { return hay.indexOf(w) !== -1; });
         var show = okCat && okQ;
         c.hidden = !show;
         if (show) shown++;
