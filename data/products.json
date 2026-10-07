@@ -1,0 +1,123 @@
+{
+  "_comment": "Productos y precios copiados de https://elanill0.com/shop/ (API WooCommerce) el 2026-10-07. price = precio actual; oldPrice = precio original tachado; price null = sin precio en la web original.",
+  "categories": [
+    { "slug": "anillos",    "name": "Anillos",    "cover": "img/colecciones/anillos.webp",    "intro": "Anillos de acero inoxidable lisos, vintage, con bolas y tipo sello para hombre. Piezas fáciles de combinar que se llevan a diario." },
+    { "slug": "collares",   "name": "Collares",   "cover": "img/colecciones/collares.webp",   "intro": "Cadenas de acero inoxidable en eslabón cubano y cuerda trenzada, en varias longitudes, para llevar solas o en capas." },
+    { "slug": "pulseras",   "name": "Pulseras",   "cover": "img/colecciones/pulseras.webp",   "intro": "Brazaletes abiertos, pulseras vintage y cadenas cubanas de acero inoxidable con un acabado de alto brillo." },
+    { "slug": "pendientes", "name": "Pendientes", "cover": "img/colecciones/pendientes.webp", "intro": "Aros lisos, huecos y trenzados de acero inoxidable en distintos tamaños, de lo más discreto a lo más llamativo." }
+  ],
+  "products": [
+    {
+      "id": 29182, "slug": "pendientes-de-acero-inoxidable-lisos", "cat": "pendientes",
+      "name": "Pendientes de acero inoxidable lisos", "price": 11, "oldPrice": 20,
+      "images": ["Pendientes-de-acero-inoxidable-lisos.webp"],
+      "summary": "Pendientes lisos de acero inoxidable, sencillos y fáciles de combinar con cualquier look.",
+      "details": []
+    },
+    {
+      "id": 29179, "slug": "collar-de-cadena-de-cuerda-trenzada-de-acero-inoxidable", "cat": "collares",
+      "name": "Collar de cadena de cuerda trenzada de acero inoxidable", "price": 12, "oldPrice": 20,
+      "images": ["Collar-de-cadena-de-cuerda-trenzada.webp"],
+      "summary": "Collar de cadena de cuerda trenzada de acero inoxidable.",
+      "details": ["Grosor: 3 mm", "Longitudes: 50 cm, 60 cm, 70 cm"],
+      "option": { "label": "Longitud", "values": ["50 cm", "60 cm", "70 cm"] }
+    },
+    {
+      "id": 29175, "slug": "brazalete-de-acero-inoxidable", "cat": "pulseras",
+      "name": "Brazalete de acero inoxidable", "price": 14, "oldPrice": 24,
+      "images": ["Brazalete-de-acero-inoxidable.webp"],
+      "summary": "Brazalete de acero inoxidable de líneas limpias.",
+      "details": []
+    },
+    {
+      "id": 29172, "slug": "anillo-acero-inoxidable-simple-y-liso", "cat": "anillos",
+      "name": "Anillo de acero inoxidable simple y liso", "price": 15, "oldPrice": 25,
+      "images": ["Anillo-acero-inoxidable-simple.webp"],
+      "summary": "Anillo simple y liso de acero inoxidable.",
+      "details": ["Color: plateado", "Tallas: 6, 8, 10, 12"],
+      "option": { "label": "Talla", "values": ["6", "8", "10", "12"] }
+    },
+    {
+      "id": 29169, "slug": "pulsera-acero-inoxidable-vintage", "cat": "pulseras",
+      "name": "Pulsera de acero inoxidable vintage", "price": 16, "oldPrice": 22,
+      "images": ["Pulsera-acero-inoxidable-vintage.webp"],
+      "summary": "Pulsera de acero inoxidable con aire vintage.",
+      "details": []
+    },
+    {
+      "id": 29165, "slug": "pendientes-de-aro-grandes-trenzados-de-acero", "cat": "pendientes",
+      "name": "Pendientes de aro grandes trenzados de acero", "price": 12, "oldPrice": 20,
+      "images": ["Pendientes-de-aro-grandes-trenzados.webp", "Pendientes-de-aro-grandes-trenzados-1.webp"],
+      "summary": "Aros grandes trenzados de acero inoxidable.",
+      "details": []
+    },
+    {
+      "id": 29160, "slug": "pulsera-de-cadena-cubana-acero-inoxidable", "cat": "pulseras",
+      "name": "Pulsera de cadena cubana de acero inoxidable", "price": 14, "oldPrice": 20,
+      "images": ["Pulsera-de-cadena-cubana-acero-inoxidable.webp"],
+      "summary": "Pulsera de cadena cubana de acero inoxidable.",
+      "details": []
+    },
+    {
+      "id": 29156, "slug": "anillo-de-hombre-en-acero-inoxidable-plateado", "cat": "anillos",
+      "name": "Anillo de hombre en acero inoxidable plateado", "price": 15, "oldPrice": 25,
+      "images": ["Anillo-liso-de-acero-inoxidable.webp", "Anillo-liso-de-acero-inoxidable1.webp"],
+      "summary": "Dale un toque moderno y sofisticado a tu estilo con este anillo de hombre en acabado plateado: una pieza elegante, minimalista y fácil de combinar.",
+      "long": [
+        "Su diseño tipo sello, con superficie rectangular de bordes redondeados y acabado pulido, aporta una apariencia masculina y contemporánea. Es perfecto para complementar tanto looks casuales como estilos más formales.",
+        "Ideal para: uso diario, ocasiones especiales, eventos, cenas, reuniones o como regalo para pareja, amigo, padre o hermano."
+      ],
+      "details": [
+        "Diseño moderno y minimalista",
+        "Acabado plateado de alto brillo",
+        "Diseño tipo anillo sello para hombre",
+        "Ideal para combinar con diferentes estilos y accesorios",
+        "Excelente opción para regalo"
+      ]
+    },
+    {
+      "id": 29132, "slug": "collar-de-eslabones-cubanos-de-acero", "cat": "collares",
+      "name": "Collar de eslabones cubanos de acero inoxidable", "price": 16, "oldPrice": 22,
+      "images": ["Collar-de-eslabones-cubanos-de-acero.webp"],
+      "summary": "Collar de eslabones cubanos de acero inoxidable.",
+      "details": ["Color: plateado", "Ancho: 5 mm", "Longitudes: 55 cm, 60 cm, 70 cm"],
+      "option": { "label": "Longitud", "values": ["55 cm", "60 cm", "70 cm"] }
+    },
+    {
+      "id": 29120, "slug": "pendientes-de-acero-inoxidable-hueco", "cat": "pendientes",
+      "name": "Pendientes de acero inoxidable huecos", "price": 14, "oldPrice": 25,
+      "images": ["Pendientes-de-acero-inoxidable-hueco.webp"],
+      "summary": "Pendientes huecos de acero inoxidable.",
+      "details": []
+    },
+    {
+      "id": 29117, "slug": "pendientes-de-acero-inoxidable-aro-liso", "cat": "pendientes",
+      "name": "Pendientes de acero inoxidable de aro liso", "price": null, "oldPrice": null,
+      "images": ["Pendientes-de-acero-inoxidable.webp"],
+      "summary": "Aros lisos de acero inoxidable en tres tamaños.",
+      "details": ["Color: plateado", "Tamaños: 20 mm, 45 mm, 70 mm"],
+      "option": { "label": "Tamaño", "values": ["20 mm", "45 mm", "70 mm"] }
+    },
+    {
+      "id": 29112, "slug": "anillo-acero-inoxidable-vintage", "cat": "anillos",
+      "name": "Anillo de acero inoxidable vintage", "price": 13, "oldPrice": 20,
+      "images": ["Anillos-Metalicos-con-Numerales-Romanos.webp"],
+      "summary": "Anillo vintage de acero inoxidable con numerales romanos.",
+      "details": []
+    },
+    {
+      "id": 29109, "slug": "brazalete-abierto-de-acero-inoxidable-trenzado", "cat": "pulseras",
+      "name": "Brazalete abierto de acero inoxidable trenzado", "price": 12, "oldPrice": 18,
+      "images": ["Brazalete-abierto-de-acero-inoxidable-trenzado.webp"],
+      "summary": "Brazalete abierto trenzado de acero inoxidable.",
+      "details": []
+    },
+    {
+      "id": 29101, "slug": "anillo-de-acero-inoxidable-bolas-dorado-y-plateado", "cat": "anillos",
+      "name": "Anillo de acero inoxidable con bolas, dorado y plateado", "price": 13, "oldPrice": 20,
+      "images": ["pendiente-de-aro-dorado-y-plateado.webp"],
+      "summary": "Anillo abierto de acero inoxidable con bolas, en dorado y plateado.",
+      "details": []
+    }
+  ]
+}
