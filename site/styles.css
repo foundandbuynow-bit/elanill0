@@ -24,7 +24,7 @@ h1,h2,h3,p{margin:0}
 .top-left span{display:flex;flex-direction:column;line-height:1.25}
 .top-left small,.cart small{font-size:8px;letter-spacing:.14em;color:var(--grey)}
 .brand{text-align:center;display:flex;flex-direction:column;gap:2px}
-.brand-name{font-family:var(--serif);font-size:25px;font-weight:600;letter-spacing:.07em;line-height:1.1}
+.brand-name{font-variant-numeric:lining-nums;font-family:var(--serif);font-size:25px;font-weight:600;letter-spacing:.07em;line-height:1.1}
 .brand-sub{font-size:8.5px;letter-spacing:.2em;color:var(--ink)}
 .top-right{display:flex;align-items:center;justify-content:flex-end;gap:26px}
 .cart{display:flex;align-items:flex-end;gap:8px}
@@ -43,7 +43,8 @@ h1,h2,h3,p{margin:0}
 /* ---------- Hero ---------- */
 .hero{position:relative;display:grid;grid-template-columns:1fr 360px;height:480px;padding-top:0}
 .hero-photo{position:absolute;left:28px;top:0;bottom:0;width:calc(100% - 56px - 360px);overflow:hidden;background:#8b8b8b}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(40,30,30,0) 55%,rgba(40,30,30,.42) 100%);pointer-events:none}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:60% 40%}
 .hero-panel{position:relative;grid-column:2;background:var(--rose);padding:0 34px 0 0;display:flex;flex-direction:column;justify-content:center;gap:0;height:100%;margin-left:0;color:var(--white)}
 .hero-panel h1{position:relative;z-index:2;font-family:var(--serif);font-weight:400;font-size:44px;line-height:1.14;letter-spacing:.015em;margin-left:-92px;margin-bottom:26px;white-space:nowrap}
 .hero-panel p{font-size:12.5px;line-height:1.75;color:rgba(255,255,255,.88);max-width:262px;margin-bottom:26px}
@@ -73,7 +74,7 @@ h1,h2,h3,p{margin:0}
 .promo-card .btn{align-self:flex-start;padding:11px 22px;font-size:10px}
 .promo-photo{position:relative;height:402px;overflow:hidden}
 .promo-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 40%}
-.promo-text{position:absolute;left:40px;bottom:38px;text-align:left;color:var(--white);text-shadow:0 1px 18px rgba(0,0,0,.35)}
+.promo-text{position:absolute;right:40px;bottom:38px;text-align:left;color:var(--white);text-shadow:0 1px 18px rgba(0,0,0,.35)}
 .promo-text .label{font-size:14px;color:var(--white);font-weight:500;margin-bottom:6px}
 .promo-title{font-family:var(--serif);font-size:38px;font-weight:500;line-height:1.1}
 
@@ -92,7 +93,7 @@ h1,h2,h3,p{margin:0}
 /* ---------- Banner negro ---------- */
 .banner{position:relative;margin-top:72px;display:block;height:380px;background:var(--black);color:var(--white);overflow:hidden;max-width:1104px;padding:0}
 .banner h2{position:absolute;left:44px;top:50%;transform:translateY(-50%);z-index:2;font-family:var(--serif);font-weight:400;font-size:38px;line-height:1.27;letter-spacing:.02em}
-.banner img{position:absolute;right:0;top:0;width:62%;height:100%;object-fit:cover;object-position:50% 88%;
+.banner img{position:absolute;right:0;top:0;width:62%;height:100%;object-fit:cover;object-position:50% 72%;
   -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 38%);mask-image:linear-gradient(90deg,transparent 0,#000 38%)}
 
 /* ---------- Boletín ---------- */
@@ -148,5 +149,8 @@ footer{padding-bottom:56px}
   .promo-title{font-size:30px}
   .news h2{font-size:26px}
 }
+
+
+
 
 
