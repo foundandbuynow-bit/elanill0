@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   var WA = '34605505120';
-  var EMAIL = 'juam9219@gmail.com';
+  var EMAIL = 'elanillospain@gmail.com';
   var $ = function (s, c) { return (c || document).querySelector(s); };
   var $$ = function (s, c) { return Array.prototype.slice.call((c || document).querySelectorAll(s)); };
   var norm = function (s) { return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); };

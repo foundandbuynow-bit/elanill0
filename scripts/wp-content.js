@@ -15,7 +15,7 @@ const SITE = 'https://elanill0.com';
 const WA_NUM = '34605505120';
 const wa = t => `https://wa.me/${WA_NUM}?text=${encodeURIComponent(t)}`;
 const HELLO = wa('Hola, quisiera información sobre vuestras joyas.');
-const EMAIL = 'juam9219@gmail.com';
+const EMAIL = 'elanillospain@gmail.com';
 const FB = 'https://www.facebook.com/elanill0';
 const MAX_OFF = 45;
 const L = (p) => SITE + p;
@@ -234,7 +234,7 @@ function buildContent(ctx) {
     slug: 'contacto', title: 'Contacto', order: 5,
     excerpt: 'Escríbenos por WhatsApp para comprar o resolver cualquier duda. Te respondemos lo antes posible.',
     seoTitle: 'Contacto y pedidos por WhatsApp | Elanill0',
-    seoDesc: 'Contacta con Elanill0: WhatsApp +34 605 505 120, email juam9219@gmail.com y Facebook @elanill0. Pide tus joyas de acero inoxidable por WhatsApp.',
+    seoDesc: 'Contacta con Elanill0: WhatsApp +34 605 505 120, email elanillospain@gmail.com y Facebook @elanill0. Pide tus joyas de acero inoxidable por WhatsApp.',
     content:
       group('wrap', group('contact-grid',
         ccard('cc-wa', 'WhatsApp', 'La forma más rápida de comprar y de resolver dudas.', `<a href="${HELLO}" target="_blank" rel="noopener"><strong>+34 605 505 120</strong></a>`) +

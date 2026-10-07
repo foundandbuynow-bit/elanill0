@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) exit;
 define('E0_VERSION', '1.0.0');
 define('E0_WA', '34605505120');
 define('E0_WA_PRETTY', '+34 605 505 120');
-define('E0_EMAIL', 'juam9219@gmail.com');
+define('E0_EMAIL', 'elanillospain@gmail.com');
 define('E0_FB', 'https://www.facebook.com/elanill0');
 define('E0_BRAND', 'Elanill0');
 

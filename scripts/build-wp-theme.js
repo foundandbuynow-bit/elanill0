@@ -18,7 +18,7 @@ const nav = `<!-- wp:navigation ${json({ overlayMenu: 'mobile', className: 'main
   '<!-- /wp:navigation -->\n';
 const search = `<!-- wp:search ${json({ label: 'Buscar', showLabel: false, placeholder: 'Busco...', buttonText: 'Buscar', buttonUseIcon: true, query: { post_type: 'producto' }, className: 'search' })} /-->\n`;
 const social = `<!-- wp:social-links ${json({ className: 'is-style-logos-only top-social' })} -->\n<ul class="wp-block-social-links is-style-logos-only top-social">` +
-  [['facebook', 'https://www.facebook.com/elanill0', 'Facebook'], ['whatsapp', WA, 'WhatsApp'], ['mail', 'mailto:juam9219@gmail.com', 'Email']]
+  [['facebook', 'https://www.facebook.com/elanill0', 'Facebook'], ['whatsapp', WA, 'WhatsApp'], ['mail', 'mailto:elanillospain@gmail.com', 'Email']]
     .map(([s, u, l]) => `<!-- wp:social-link ${json({ url: u, service: s, label: l })} /-->`).join('\n') + '</ul>\n<!-- /wp:social-links -->\n';
 const logo = (size, cls) => `<!-- wp:site-logo ${json({ width: size, shouldSyncIcon: false, className: cls })} /-->\n`;
 
@@ -36,7 +36,7 @@ w('parts/footer.html',
     group('foot-cols',
       group('f-brand', logo(92, 'foot-logo') + paragraph('Elanill0 es una tienda online de joyas de acero inoxidable 316L: anillos, collares, pulseras y pendientes para hombre y mujer, pensados para el día a día. Envío gratis en compras de más de 50 €.')) +
       group('f-col f-contact', heading(2, 'Contacto', 'foot-h') + list([
-        '<a href="mailto:juam9219@gmail.com">juam9219@gmail.com</a>',
+        '<a href="mailto:elanillospain@gmail.com">elanillospain@gmail.com</a>',
         `<a href="${WA}" target="_blank" rel="noopener">+34 605 505 120</a>`,
         '<a href="/contacto/">Madrid, España</a>',
         '<a href="https://www.facebook.com/elanill0" target="_blank" rel="noopener">Facebook @elanill0</a>'])) +
